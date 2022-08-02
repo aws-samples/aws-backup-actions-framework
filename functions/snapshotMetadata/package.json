@@ -1,0 +1,15 @@
+{
+  "name": "snapshotmetadata",
+  "version": "1.0.0",
+  "description": "Get metadata about AWS Backup snapshots",
+  "main": "snapshotMetadata.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff Strunk <strunkjd@amazon.com>",
+  "license": "MIT-0",
+  "types": "./snapshotMetadata.d.ts",
+  "dependencies": {
+    "@aws-sdk/util-arn-parser": "^3.55.0"
+  }
+}
