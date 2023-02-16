@@ -14,6 +14,7 @@ const stack = new AwsBackupActionsStack(app, "AwsBackupActionsStack", {
     account: app.node.tryGetContext("account"),
     region: app.node.tryGetContext("region"),
   },
+  description: "Reference accelerator for backup actions ('uksb-1tsflhna3')",
 });
 cdk.Aspects.of(app).add(
   new AwsSolutionsChecks({
